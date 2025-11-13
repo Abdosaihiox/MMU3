@@ -16,6 +16,6 @@ env. assert_string(f' (result (name " {name}"))')
 env.run()
 results = []
 for fact in env.facts) :
-if fact.template.name == 'result':
-results.append(fact[ name']) #why assert the fact?
+  if fact.template.name == 'result':
+    results.append(fact[ name']) #why assert the fact?
 st.write(results[0], "output")
